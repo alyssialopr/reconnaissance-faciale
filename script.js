@@ -66,8 +66,19 @@ async function predict() {
 }
 
 // Verrouiller l'ordinateur (fonction à adapter)
-function lockComputer() {
-  alert("Verrouillage de l'ordinateur !");
+async function lockComputer() {
+  try {
+    const response = await fetch("http://localhost:8000/lock", {
+      method: "POST",
+    });
+    const result = await response.json();
+    console.log(result);
+    status.textContent = "Ordinateur verrouillé !";
+  } catch (error) {
+    console.error("Erreur lors du verrouillage de l'ordinateur", error);
+    status.textContent = "Erreur lors du verrouillage de l'ordinateur";
+  }
+  
 }
 
 loadModel();
