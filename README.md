@@ -26,6 +26,6 @@ Ce script permet de renforcer la sécurité d'un ordinateur en n'autorisant que 
 3. Et le tour est joué
 
 ## Créateurs & Contributeurs : 
-- Antoine Schmerber-Perraud
-- Alyssia Lorsold Pradon
-- Léora Chriqui 
+* [Antoine SCHMERBER-PERRAUD](https://github.com/AntoineSP01)
+* [Alyssia LORSOLD PRADON](https://github.com/alyssialopr)
+* [Léora CHRIQUI](https://github.com/Leoratz) 
