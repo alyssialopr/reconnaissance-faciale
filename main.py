@@ -29,7 +29,7 @@ def lock_endpoint():
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # En prod, remplace "*" par l'URL de ton site
+    allow_origins=["*"],  
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
