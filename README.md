@@ -23,7 +23,8 @@ Ce script permet de renforcer la sécurité d'un ordinateur en n'autorisant que 
 ## Execution du projet:
 1. S'assurer que la caméra est fonctionnelle
 2. Lancer le projet en allumant le serveur
-3. Et le tour est joué
+3. Lancer le python avec
+   ``python -m uvicorn main:app --reload --host 0.0.0.0 --port 8000``
 
 ## Créateurs & Contributeurs : 
 * [Antoine SCHMERBER-PERRAUD](https://github.com/AntoineSP01)
