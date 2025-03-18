@@ -20,7 +20,12 @@ Ce script permet de renforcer la sécurité d'un ordinateur en n'autorisant que 
 - **HTML** : Structure du front-end pour l'affichage des résultats.
 - **JSON** : Format utilisé pour stocker le modèle de reconnaissance faciale et les données de l'utilisateur.
 
+## Execution du projet:
+1. S'assurer que la caméra est fonctionnelle
+2. Lancer le projet en allumant le serveur
+3. Et le tour est joué
+
 ## Créateurs & Contributeurs : 
-Antoine Schmerber-Perraud
-Alyssia Lorsold Pradon
-Léora Chriqui 
+- Antoine Schmerber-Perraud
+- Alyssia Lorsold Pradon
+- Léora Chriqui 
